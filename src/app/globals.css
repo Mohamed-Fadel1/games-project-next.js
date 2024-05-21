@@ -1,0 +1,75 @@
+
+
+
+
+.card {
+  background-color: #36454f !important;
+
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: 0.6s;
+
+}
+
+.card:hover {
+  transform: scale(1.08);
+
+}
+
+.card img {
+  transition: filter 0.3s ease; 
+filter: grayscale(0.7); 
+}
+
+.card:hover img {
+filter: grayscale(0); 
+}
+
+
+.par-ele {
+  font-size: 12px;
+}
+
+.par-desc {
+  color: #949aa1;
+}
+
+.titleGame {
+  color: #0DCAF0;
+}
+
+.nav-list {
+  list-style-type: none;
+} 
+
+
+body {
+  background-color: #36454f !important;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.active {
+background-color: teal !important;
+border-radius: 10px !important;
+color: white !important;
+}
+
+.navbar {
+  background-color:lightblue !important ;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+
+}
+
+
+
+.navbar-brand {
+  color: black !important;
+}

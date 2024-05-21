@@ -1,0 +1,22 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Mohamed-Fadel1.github.io/games-project-next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
